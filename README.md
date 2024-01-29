@@ -1,0 +1,1 @@
+# Astro-tina-i18n-test
