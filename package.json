@@ -1,0 +1,22 @@
+{
+  "name": "astro-tina-i18n-test",
+  "repository": "https://github.com/Frikadellios/Astro-tina-i18n-test",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx tinacms dev -c \"astro dev\"",
+    "astro-dev": "astro dev",
+    "build": "tinacms build && astro build",
+    "astro-build": "astro build",
+    "preview": "tinacms build && astro preview"
+  },
+  "devDependencies": {
+    "@picocss/pico": "^1.5.10",
+    "@tinacms/cli": "^1.5.31",
+    "astro": "^3.3.3",
+    "dotenv": "^16.3.1",
+    "marked": "^9.1.2",
+    "tinacms": "^1.5.22"
+  }
+}
