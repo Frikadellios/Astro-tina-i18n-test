@@ -8,6 +8,7 @@ import vercel from "@astrojs/vercel/serverless";
 // https://astro.build/config
 export default defineConfig({
   integrations: [tailwind(), react(), sitemap()],
+  site: 'https://astro-tina-i18n-starter.vercel.app'
   redirects: {
     '/': '/en/',
   },
