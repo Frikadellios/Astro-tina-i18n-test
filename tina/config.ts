@@ -5,8 +5,8 @@ const branch = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || 'main';
 
 export default defineConfig({
   branch,
-  clientId: process.env.TINA_CLIENT_ID, // Get this from tina.io
-  token: process.env.TINA_READ_ONLY_TOKEN, // Get this from tina.io
+  clientId: 'e68dfd23-ab41-4253-843f-cb1dfc6dbc11', // Get this from tina.io
+  token: '7f048ebe36fd0167d477901c21de5db2b50b50f9', // Get this from tina.io
 
   build: {
     outputFolder: 'admin',
@@ -15,7 +15,7 @@ export default defineConfig({
   media: {
     tina: {
       mediaRoot: 'assets',
-      publicFolder: 'public',
+      publicFolder: 'src',
     },
   },
   schema: {
