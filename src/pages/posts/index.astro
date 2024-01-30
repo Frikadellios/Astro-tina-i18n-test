@@ -3,6 +3,7 @@ import Layout from '@layouts/main.astro';
 
 import { getCollection } from 'astro:content';
 const posts = await getCollection('posts');
+export const prerender = true;
 ---
 
 <Layout title="Posts" lang="en">

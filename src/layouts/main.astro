@@ -3,6 +3,7 @@ import '@css/main.css';
 import Header from '@components/Header.astro';
 import Footer from '@components/Footer.astro';
 const { title = 'TODO', lang = "en" } = Astro.props;
+export const prerender = true;
 ---
 
 <html lang={lang}>
