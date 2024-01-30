@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "bunx tinacms dev -c \"astro dev --port 8080\"",
     "astro-dev": "astro dev",
-    "build": "bunx tinacms build && astro build",
+    "build": "tinacms build && astro build",
     "astro-build": "astro build",
     "preview": "tinacms build && astro preview"
   },
